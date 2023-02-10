@@ -1,0 +1,53 @@
+body{
+    text-align: justify;
+    max-width: 1100px;
+}
+
+#dindinlogo{
+    position: relative;
+    }
+
+.menu{
+        background-color: #2e948a;
+        width: 1100px;
+        height: 100px;
+}
+.menu li{
+    display: block;
+}
+.listanavegacao{
+    float: left;
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    padding-left: 700px;
+    
+}
+.divbanner h1{
+    color: #f5418e;
+}
+.botaobranco{
+    background-color: #ffffff;
+    color: #f5418e;
+    border: #f5418e solid;
+}
+.botaorosa{
+    background-color: #f5418e;
+    color: #ffffff;
+    border: none;
+}
+.imagenscursos{
+    width: 10px;
+}
+.catalogo{
+    justify-content: space-around;
+}
+.rodape{
+    background-color: #2e948a;
+    display:inline-flexbox ;
+}
+.botaorodape{
+    background-color: #2e948a;
+    color:#ffffff;
+    border-color: #ffffff;
+}
