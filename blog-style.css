@@ -1,0 +1,615 @@
+* {
+    margin: 0px;
+    font-family: 'Ubuntu';
+}
+
+
+.menu {
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.listamenu {
+    display: flex;
+    list-style: none;
+}
+
+.listamenu a {
+    color: #FDFDFD;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.listamenu a:hover{
+    color:  #d1cdcd;
+}
+
+#cabecalhoblog {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+}
+
+.introducaoblog h1 {
+    width: 512px;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+    padding-bottom: 5%;
+
+}
+
+.introducaoblog h2 {
+    width: 461px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 5%;
+    color: #000000;
+}
+
+
+.corpoblog {
+    background: #F7F7F7;
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 530px;
+    padding-left: 10px;
+}
+
+.corpoblog h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FF4081;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.corpoblog p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.retangulo {
+    width: 518px;
+    height: 259px;
+    left: 171px;
+    top: 768px;
+    background: #C4C4C4;
+}
+
+.noticia {
+    width: 518px;
+    padding-bottom: 13%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#linkpost {
+    text-decoration: none;
+}
+
+#linkpost h3:hover {
+    color: #b0345d;
+}
+
+#postdetalhado {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+
+#postdetalhado h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    align-self: center;
+    color: #FF4081;
+    padding-top: 4%;
+}
+
+#postdetalhado h4 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    align-self: center;
+    color: #9D9D9D;
+    padding-bottom: 4%;
+}
+
+.retangulopost{
+    width: 1032px;
+    height: 465px;
+    left: 204px;
+    top: 381px;
+    background: #C4C4C4;
+    align-self: center;
+    margin: 40px;
+}
+
+#postdetalhado p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 1032px;
+    align-self: center;
+   padding-top: 30px;
+   
+}
+
+#postdetalhado h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+    color:  #419488;
+    width: 1032px;
+    align-self: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+   
+}
+
+#conhecacursospost{
+    background: #F7F7F7;
+    text-align: center;
+}
+
+#conhecacursospost h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+    align-self: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.cardspost{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.cardcursospost{
+    width: 338px;
+    flex-wrap: wrap;
+    padding-bottom: 13%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardcursospost img {
+    height: 279.0556640625px;
+    align-self: center;
+    padding-bottom: 50px;
+}
+
+.cardcursospost h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+
+
+.cardcursospost p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cardcursospost button {
+    width: 233px;
+    height: 62.81px;
+    left: 623px;
+    top: 2817.64px;
+    background: #FF4081;
+    border-radius: 62px;
+    border: none;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+}
+.cardcursospost button:hover {
+    background: #763047;
+}
+
+.formcontato h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;  
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.formcontato {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.colunacontato {
+    flex-wrap: wrap;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#formcampos {
+   display: flex;
+   flex-direction: column;  
+}
+
+#camponome, #campoemail, #campomensagem{
+    width: 493px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    color: #58555D;
+    padding-left: 13px;
+    margin-bottom: 13px;
+}
+
+#campomensagem {
+    width: 493px;
+    height: 193px;
+}
+
+#botaocontato {
+    height: 32px;
+    width: 108px;    
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#botaocontato:hover {
+    background: #763047;
+}
+
+#contatoimagem {
+    width: 444px;
+    height: 444px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+footer {
+    background: #419488;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.listafooter {
+    list-style: none;
+    padding: 8px;
+}
+
+
+.listafooter a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.listafooter a:hover{
+    color:  #d1cdcd;
+}
+
+.botoesfooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.botaofooter{
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 8px;
+    color: #FFFFFF;
+    background-color: #419488;
+    cursor: pointer;
+}
+
+.botaofooter:hover{
+    background-color: #30655d;
+}
+
+@media only screen and (max-width:834px) {
+    .logo {
+        width: 150px;
+    }
+
+    .listamenu a {
+        font-weight: 500;
+        font-size: 18px;
+     
+    }
+
+    #ilustrablog{
+        width: 35%;
+    }
+    .introducaoblog h1 {
+        width: 400px;
+        font-size: 40px;
+        padding-bottom: 2%;
+    
+    }
+    
+    .introducaoblog h2 {
+        width: 341px;
+        font-size: 15px;
+        padding-top: 2%;
+    }
+
+    #postdetalhado h1 {
+        font-size: 40px;
+    }
+    
+    .retangulopost{
+        width: 700px;
+        height: 400px;
+        margin: 10px;
+    }
+    
+    #postdetalhado p {
+        width: 700px;
+    }
+    
+    #postdetalhado h2 {
+        width: 700px;
+    }
+    
+    #contatoimagem {
+        padding-left: 30px;
+    }
+    
+    .botaofooter{
+        font-size: 18px;
+        width: 200px;
+    
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .logo {
+        width: 90px;
+    }
+
+    .menu {
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .listamenu a {
+        font-weight: 500;
+        font-size: 13px;
+        padding-left: 10px;
+        line-height: 0px;
+    }
+
+
+    #ilustrablog{
+        width: 40%;
+        padding-right: 15px;
+    }
+
+    .introducaoblog h1 {
+        width: 180px;
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    
+    .introducaoblog h2 {
+        width: 171px;
+        font-size: 12px;
+        line-height: 16px;
+        padding-left: 30px;
+        padding-bottom: 10%;
+    }
+
+    .corpoblog {
+        padding-top: 14%;
+    }
+
+    .coluna {
+        width: 300px;
+    }
+    
+    .corpoblog h3 {
+        font-size: 20px;
+        line-height: 34px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    .corpoblog p {
+        font-size: 14px;
+    }
+    
+    .retangulo {
+        width: 300px;
+        height: 150px;
+    }
+    
+    .noticia {
+        width: 300px;
+        padding-bottom: 15%;
+    }
+
+    #postdetalhado h1 {
+        font-size: 20px;
+    }
+    
+    #postdetalhado h4 {
+        font-size: 12px;
+        line-height: 10px;
+        padding-bottom: 1%;
+    }
+    
+    .retangulopost{
+        width: 310px;
+        height: 230px;
+        margin: 20px;
+    }
+
+    #postdetalhado {
+        padding-bottom: 60px;
+    }
+    
+    #postdetalhado p {
+        font-size: 14px;
+        width: 310px;
+        padding-top: 20px;
+    }
+    
+    #postdetalhado h2 {
+        font-size: 18px;
+        width: 310px;
+        padding-top: 50px;
+        
+    }
+    
+    #conhecacursospost h1{
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    
+    .cardcursospost{
+        width: 300px;
+    }
+    
+    .cardcursospost img {
+        padding-bottom: 20px;
+    }
+
+    .cardcursospost h3 {
+        font-size: 20px;
+    }
+    
+    
+    .cardcursospost p {
+        font-size: 14px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .cardcursospost button {
+        width: 200px;
+        height: 35px;
+    }
+
+    .formcontato h1 {
+        font-weight: 500;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    
+    .colunacontato {
+        width: 300px;
+
+    }
+    
+    #camponome, #campoemail, #campomensagem{
+        width: 280px;
+    }
+        
+    #contatoimagem {
+        width: 222px;
+        height: 222px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        padding-left: 40px;
+    }
+    
+    footer {
+        padding: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .listafooter {
+        padding: 0px;
+        
+    }
+
+    .listaul {
+        padding-left: 0px;
+    }
+
+    .listafooter a {
+        font-size: 11px;
+        line-height: 23px;
+    }
+
+    .botaofooter{
+        font-size: 12px;
+        line-height: 0px;
+        width: 120px;
+        height: 25px;
+        margin: 4px;    
+    }
+
+}
