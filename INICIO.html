@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+    </style>
     <link rel="stylesheet" href="./css/cssINICIO.css">
     <title>dindin - home</title>
 </head>
 <body>
     <header>
-    <!-- MENU SUPERIOR a organizar-->
+    <!-- MENU SUPERIOR !-->
     <div class="menu">
     <nav>
     <figure id="dindinlogo"><img src="./dindin-imagens/logo-header.png"></figure>
-    <ul class="listanavegacao">
+    <ul class="listamenu">
     <li><a href=CURSOS.html>CURSOS</a></li>
     <li><a href=BLOG.html>BLOG</a></li>
     <li><a href=CONTATO.html>CONTATO</a></li>
@@ -21,34 +23,44 @@
     </nav>
     </div>
     </header>
-    <!-- PRINCIPAL a colocar imagem -->
-    <div class="divbanner">
-    <figure id="banner"><img src="/dindin-imagens/ilustra-banner.png"></figure>
+    <!-- banner principal -->
+    <div id="bannerprincipal">
+        <div class="textobanner">    
     <h1>Educação<br/> Financeira<br/> é tudo de bom</h1>
-    <h2>Vem comigo que te mostro por onde começar</h2>
-    <h3><button class="botaobranco">quero saber mais</button></h3>
+    <h2>Vem comigo que te mostro<br/> por onde começar</h2>
+    <h3><button class="botaobranco"><a href="./CURSOS.html">quero saber mais</a></button></h3>
     </div>
+    <figure id="ilustra-banner"><img src="/dindin-imagens/ilustra-banner.png"></figure>
+    </div>
+    
     <!-- SEGUNDA DIV COM OS 3 CURSOS a colocar imagens e box-->
+    <div id="CURSOS">
     <div class="catalogo">
         <figure class="imagenscursos"><img src="/dindin-imagens/ilustra-poupando.png"></figure><h1><a href=CURSOINVPARAINICIANTES.html>Investimento para iniciantes</a></h1>
-        <h2>*Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam illo suscipit impedit modi nobis minima vitae, quaerat, id porro eligendi.</h2>
-        <h3><button class="botaorosa">começar agora</button></h3>
-        <figure class="imagenscursos"><img src="/dindin-imagens/ilustra-investimento.png"></figure>
-        <h1>Poupando e Rendendo</h1>
-        <h2>*Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum, ut possimus eveniet aliquam harum?</h2>
-        <h3><button class="botaorosa">começar agora</button></h3>
+        <p><h2>Duis aute irure dolor in reprehenderit<br/> in voluptate velit es se cillum dolore<br/> eu fugiat nulla pariatur.</h2></p>
+    <p></h3><button class="botaorosa">começar agora</button></h3></p>
+      <figure class="imagenscursos"><img src="/dindin-imagens/ilustra-investimento.png"></figure>
+        <p><h1>Poupando e Rendendo</h1></p>
+        <p><h2>Duis aute irure dolor in reprehenderit<br/> in voluptate velit es se cillum dolore<br/> eu fugiat nulla pariatur.</h2></p>
+        <p><h3><button class="botaorosa">começar agora</button></h3></p>
         <figure class="imagenscursos"><img src="/dindin-imagens/ilustra-independencia.png"></figure>
-        <h1>Independência Financeira</h1>
-        <h2>*Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis veniam suscipit quae delectus optio accusantium.</h2>
-        <h3><button class="botaorosa">começar agora</button></h3>
+        <p><h1>Independência Financeira</h1></p>
+        <p><h2>Duis aute irure dolor in reprehenderit<br/> in voluptate velit es se cillum dolore<br/> eu fugiat nulla pariatur.</h2></p>
+        <p><h3><button class="botaorosa">começar agora</button></h3></p>
     </div>
     <!-- TERCEIRA DIV COM OS DEPOIMENTOS a colocar fotos e box-->
-    <div class="depoimentos">
+    <div id="depoimentos">
         <h1>O QUE FALAM SOBRE NÓS</h1>
-        <figure class="depos"><img src="./dindin-imagens/icon-wally.png"></figure><h5>*Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae iste nisi.<br/>Wally, 25</h5>
-        <figure class="depos"><img src="./dindin-imagens/icon-jaden.png"></figure><h5>*Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae iste nisi.<br/>Jaden Smith, 23</h5>
-        <figure class="depos"><img src="./dindin-imagens/icon-whoopi.png"></figure><h5>*Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae iste nisi.<br/>Whoopi Goldberg, 37</h5>
-        <figure class="depos"><img src="./dindin-imagens/icon-jane.png"></figure><h5>*Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quae iste nisi.<br/>Janis Joplin, 29</h5>
+        <div class="depoimentos">
+        <figure class="depos"><img src="./dindin-imagens/icon-wally.png"></figure><h2>"Sed ut perspiciatis unde omnis iste natus<br/> error sit voluptatem accusantium doloremque<br/> laudantium, totam rem aperiam.”<br/>Wally, 25</h2>
+        </div>
+        <div class="depoimentos">
+        <figure class="depos"><img src="./dindin-imagens/icon-jaden.png"></figure><h2>"Sed ut perspiciatis unde omnis iste natus<br/> error sit voluptatem accusantium doloremque<br/> laudantium, totam rem aperiam.”<br/>Jaden Smith, 23</h2>
+        </div>
+    <div class="depoimentos">
+        <figure class="depos"><img src="./dindin-imagens/icon-whoopi.png"></figure><h2>"Sed ut perspiciatis unde omnis iste natus<br/> error sit voluptatem accusantium doloremque<br/> laudantium, totam rem aperiam.”<br/>Whoopi Goldberg, 37</h2></div>
+        <div class="depoimentos"><figure class="depos"><img src="./dindin-imagens/icon-jane.png"></figure><h2>"Sed ut perspiciatis unde omnis iste natus<br/> error sit voluptatem accusantium doloremque<br/> laudantium, totam rem aperiam.”<br/>Janis Joplin, 29</h2>
+    </div>
     </div>
     <!-- QUARTA DIV COM 3 POSTS DO BLOG  - a colocar em linha-->
     <div class="maisconteudo">
