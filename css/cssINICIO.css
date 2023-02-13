@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
@@ -31,7 +32,11 @@
     color:  #d1cdcd;
 }
 
-
+#ilustra-banner{
+width: 100%;
+padding-top: 117px;
+padding-bottom: 66px;
+}
 .textobanner h1{
     color: #f5418e;
     width: 512px;
@@ -41,9 +46,10 @@
     
 }
 #bannerprincipal{
-display: flex;
+display: inline-flex;
 justify-content: center;
 align-items: center;
+padding: 0px 100px;
 }
 
 .textobanner h2{
@@ -55,7 +61,8 @@ align-items: center;
 
 .botaobranco{
     background-color: #ffffff;
-    font-size: 12px;
+    font-size: 27px;
+    font-weight: 400;
     color: #f5418e;
     border: #f5418e solid;
     border-radius: 50px;
@@ -71,20 +78,39 @@ align-items: center;
     border: none;
     border-radius: 50px;
 }
+
 #CURSOS{
     background-color: #f6f6f6;
+    padding-top: 109px;
+    text-align: center;
+    padding-bottom: 119px;
 }
+
 .catalogo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.catalogo a{
+    text-decoration: none;
+    color: #f5418e;
+}
+.catalogo h1{
+    font-size: 25px;
+    color: #f5418e;
+}
+.catalogo h2{
+    font-size: 17px;
+    font-style: light;
+    padding-top: 23px;
+    padding-bottom: 26px;
 }
 .imagenscursos{
     width: 338px;
     flex-wrap: wrap;
-    padding-bottom: 13%;
+    padding: 0px 10px 43px 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -94,16 +120,70 @@ align-items: center;
         padding-bottom: 50px;
     }
 
-.rodape{
-    background-color: #2e948a;
-    display:inline-flexbox ;
-}
-.botaorodape{
-    background-color: #2e948a;
-    color:#ffffff;
-    border-color: #ffffff;
+#depoimentos{
+    background-color: #ffffff;
+    padding: 119px 225px 155px 128px;
 }
 .depoimentos{
-    display: inline-block;
+        display: inline-block;
+        text-align: left;
+}
+ 
+#depoimentos h1{
+    color: #2e948a;
+    font-weight: 700;
+    font-size: 37px;
+    text-align: left;
+    padding: 0px 10px 78px 128px;
+}
+.depoimentos h2{
+    font-style: light;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+}
+.depos{
+   
+    width: 104px;
+    height: 104px;
+    padding: 10px;    
+}
+
+
+#maisconteudo{
     text-align: center;
-    }
+    padding: 5px 0;
+}
+
+.rodape{
+    background-color: #2e948a;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+.itensmenu{
+    list-style: none;
+}
+.rodape a{
+    text-decoration: none;
+}
+.botaorodape{
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    background-color: #2e948a;
+    border-radius: 62px;
+    text-align: center;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    margin: 8px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
