@@ -151,8 +151,25 @@ padding: 0px 100px;
 
 
 #maisconteudo{
+    background-color: #f6f6f6;
+    padding-top: 91px;
+    padding-bottom: 119px;
     text-align: center;
-    padding: 5px 0;
+}
+
+.maisconteudo h1{
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 128px;
+    color: #2e948a;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.maisconteudo h2{
+    color: #2e948a;
+    font-weight: 700;
+    font-size: 27px;
 }
 
 .rodape{
