@@ -246,6 +246,7 @@
     color: white;
     align-self: center;
     cursor: pointer;
+    font-size: 20px;
 }
 .cardcursospost button:hover {
     background: #763047;
@@ -559,6 +560,7 @@ footer {
     .cardcursospost button {
         width: 200px;
         height: 35px;
+        font-size: 13px;
     }
 
     .formcontato h1 {
