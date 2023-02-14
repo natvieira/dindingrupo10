@@ -126,10 +126,12 @@ padding: 0px 100px;
 #depoimentos{
     background-color: #ffffff;
     padding: 119px 225px 155px 128px;
+    display: block;
 }
 .depoimentos{
         display: inline-block;
-        text-align: left;
+        justify-content: space-between;
+        
 }
  
 #depoimentos h1{
@@ -137,7 +139,7 @@ padding: 0px 100px;
     font-weight: 700;
     font-size: 37px;
     text-align: left;
-    padding: 0px 10px 78px 128px;
+    padding: 0px 10px 78px 0px;
 }
 .depoimentos h2{
     font-style: light;
