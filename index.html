@@ -1,107 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style> @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
     </style>
     <link rel="stylesheet" href="./css/cssINICIO.css">
     <title>dindin - home</title>
 </head>
 <!-- MENU SUPERIOR !-->
-    <header>
-        <nav><div class="menu">
-            <figure id="dindinlogo"><img src="./dindin-imagens/logo-header.png" alt="logoheader"></figure>
-                <ul class="listamenu">
-                    <li><a href=CURSOS.html>CURSOS</a></li>
-                    <li><a href=BLOG.html>BLOG</a></li>
-                    <li><a href=CONTATO.html>CONTATO</a></li>
-                </ul>
-        </nav></div>
-    </header>
+<header>
+    <div class="menu">
+        <a href="./index.html"><img src="./dindin-imagens/logo-header.png" class="logo" alt="logoheader"></a>
+        <nav>
+            <ul class="listamenu">
+                <li><a href=./CURSOS.html>CURSOS</a></li>
+                <li><a href=./BLOG.html>BLOG</a></li>
+                <li><a href=./CONTATO.html>CONTATO</a></li>
+            </ul>
+        </nav>    
+    </div>
+</header>
+
+
 <body>
-    <!-- Banner principal --> 
+    <!-- Banner principal -->
     <div id="bannerprincipal">
-        <div class="textobanner">    
-            <h1>Educação<br/> Financeira<br/> é tudo de bom</h1>
-            <h2>Vem comigo que te mostro<br/> por onde começar</h2>
+        <div class="textobanner">
+            <h1>Educação<br /> Financeira<br /> é tudo de bom</h1>
+            <h2>Vem comigo que te mostro<br /> por onde começar</h2>
             <h3><button class="botaobranco"><a href="./CURSOS.html">quero saber mais</a></button></h3>
         </div>
         <figure id="ilustra-banner"><img src="./dindin-imagens/ilustra-banner.png" alt="ilustraçãobanner"></figure>
-        </div>
-    
+    </div>
+
     <!-- SEGUNDA DIV COM OS 3 CURSOS-->
     <div id="CURSOS">
         <div class="catalogo">
-            <div><figure class="imagenscursos"><img src="./dindin-imagens/ilustra-poupando.png"></figure><h1><a href=CURSOINVPARAINICIANTES.html>Investimento para iniciantes</a></h1>
-        <p><h2>Duis aute irure dolor in reprehenderit<br/> in voluptate velit es se cillum dolore<br/> eu fugiat nulla pariatur.</h2></p>
-            <p></h3><button class="botaorosa">começar agora</button></h3></p></div>
-            <div><figure class="imagenscursos"><img src="./dindin-imagens/ilustra-investimento.png"></figure>
-            <p><h1>Poupando e Rendendo</h1></p>
-            <p><h2>Duis aute irure dolor in reprehenderit<br/> in voluptate velit es se cillum dolore<br/> eu fugiat nulla pariatur.</h2></p>
-            <p><h3><button class="botaorosa">começar agora</button></h3></p></div>
-            <div><figure class="imagenscursos"><img src="./dindin-imagens/ilustra-independencia.png"></figure>
-            <p><h1>Independência Financeira</h1></p>
-            <p><h2>Duis aute irure dolor in reprehenderit<br/> in voluptate velit es se cillum dolore<br/> eu fugiat nulla pariatur.</h2></p>
-            <p><h3><button class="botaorosa">começar agora</button></h3></p></div>
+            <div class="cardcurso">
+                <figure class="imagenscursos"><img src="./dindin-imagens/ilustra-poupando.png"></figure>
+                <h1><a href=CURSOINVPARAINICIANTES.html>Investimento para iniciantes</a></h1>
+                <p>
+                <h2>Duis aute irure dolor in reprehenderit<br /> in voluptate velit es se cillum dolore<br /> eu fugiat
+                    nulla pariatur.</h2>
+                </p>
+                <p>
+                    </h3><button class="botaorosa">começar agora</button></h3>
+                </p>
+            </div>
+            <div class="cardcurso">
+                <figure class="imagenscursos"><img src="./dindin-imagens/ilustra-investimento.png"></figure>
+                <p>
+                <h1>Poupando e Rendendo</h1>
+                </p>
+                <p>
+                <h2>Duis aute irure dolor in reprehenderit<br /> in voluptate velit es se cillum dolore<br /> eu fugiat
+                    nulla pariatur.</h2>
+                </p>
+                <p>
+                <h3><button class="botaorosa">começar agora</button></h3>
+                </p>
+            </div>
+            <div class="cardcurso">
+                <figure class="imagenscursos"><img src="./dindin-imagens/ilustra-independencia.png"></figure>
+                <p>
+                <h1>Independência Financeira</h1>
+                </p>
+                <p>
+                <h2>Duis aute irure dolor in reprehenderit<br /> in voluptate velit es se cillum dolore<br /> eu fugiat
+                    nulla pariatur.</h2>
+                </p>
+                <p>
+                <h3><button class="botaorosa">começar agora</button></h3>
+                </p>
+            </div>
         </div>
     </div>
 
     <!-- TERCEIRA DIV COM OS DEPOIMENTOS-->
     <div id="depoimentos">
         <h1>O QUE FALAM SOBRE NÓS</h1>
-        <div class="depoimentos">
-        <figure class="depos"><img src="./dindin-imagens/icon-wally.png"></figure><h2>"Sed ut perspiciatis unde omnis iste natus<br/> error sit voluptatem accusantium doloremque<br/> laudantium, totam rem aperiam.”<br/></h2><h3>Wally, 25</h3>
-        </div>
-        <div class="depoimentos">
-        <figure class="depos"><img src="./dindin-imagens/icon-jaden.png"></figure><h2>"Sed ut perspiciatis unde omnis iste natus<br/> error sit voluptatem accusantium doloremque<br/> laudantium, totam rem aperiam.”<br/></h2><h3>Jaden Smith, 23</h3>
-        </div>
-    <div class="depoimentos">
-        <figure class="depos"><img src="./dindin-imagens/icon-whoopi.png"></figure><h2>"Sed ut perspiciatis unde omnis iste natus<br/> error sit voluptatem accusantium doloremque<br/> laudantium, totam rem aperiam.”<br/></h2><h3>Goldberg, 37</h2></h3></div>
-        <div class="depoimentos"><figure class="depos"><img src="./dindin-imagens/icon-jane.png"></figure><h2>"Sed ut perspiciatis unde omnis iste natus<br/> error sit voluptatem accusantium doloremque<br/> laudantium, totam rem aperiam.”<br/></h2><h3>Janis Joplin, 29</h3>
+        <div id="depoimentos2">
+            <div>
+                <div class="depoimentos">
+                    <figure class="depos"><img src="./dindin-imagens/icon-wally.png"></figure>
+                    <div>
+                        <h2>"Sed ut perspiciatis unde omnis iste natus<br /> error sit voluptatem accusantium doloremque<br />
+                            laudantium, totam rem aperiam.”</h2>
+                        <h3>Wally, 25</h3>
+                    </div>    
+                </div>
+                <div class="depoimentos">
+                    <figure class="depos"><img src="./dindin-imagens/icon-jaden.png"></figure>
+                    <div>
+                        <h2>"Sed ut perspiciatis unde omnis iste natus<br /> error sit voluptatem accusantium doloremque<br />
+                            laudantium, totam rem aperiam.”<br /></h2>
+                        <h3>Jaden Smith, 23</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="depoimentos">
+                    <figure class="depos"><img src="./dindin-imagens/icon-whoopi.png"></figure>
+                    <div>
+                        <h2>"Sed ut perspiciatis unde omnis iste natus<br /> error sit voluptatem accusantium doloremque<br />
+                            laudantium, totam rem aperiam.”<br /></h2>
+                        <h3>Goldberg, 37</h3>
+                    </div>
+                </div>
+                <div class="depoimentos">
+                    <figure class="depos"><img src="./dindin-imagens/icon-jane.png"></figure>
+                    <div>
+                        <h2>"Sed ut perspiciatis unde omnis iste natus<br /> error sit voluptatem accusantium doloremque<br />
+                            laudantium, totam rem aperiam.”<br /></h2>
+                        <h3>Janis Joplin, 29</h3>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </div>
-</div>
     <!-- QUARTA DIV COM 3 POSTS DO BLOG -->
-    <section><div id="maisconteudo">
-        <div class="itensblog">
-        <h1>MAIS CONTEÚDO PARA VOCÊ</h1>
-        <!-- <ul> -->
-            <div class="itemblog">
-               <div class="retangulo">&nbsp;</div>
-                <p><h2>Itaque earum rerum</h2>
-            <h3>hic tenetur a sapiente delectus, ut aut<br/> reiciendis voluptatibus maiores alias<br/> consequatur aut perferendis doloribus<br/> asperiores repellat.</h3></p>
+    <section>
+        <div id="maisconteudo">
+            <div class="itensblog">
+                <h1>MAIS CONTEÚDO PARA VOCÊ</h1>
+                <!-- <ul> -->
+                <div class="itemblog">
+                    <div class="retangulo">&nbsp;</div>
+                    <p>
+                    <h2>Itaque earum rerum</h2>
+                    <h3>hic tenetur a sapiente delectus, ut aut<br /> reiciendis voluptatibus maiores alias<br />
+                        consequatur aut perferendis doloribus<br /> asperiores repellat.</h3>
+                    </p>
+                </div>
+                <div class="itemblog">
+                    <div class="retangulo">&nbsp;</div>
+                    <p>
+                    <h2>Itaque earum rerum</h2>
+                    <h3>hic tenetur a sapiente delectus, ut aut<br /> reiciendis voluptatibus maiores alias<br />
+                        consequatur aut perferendis doloribus<br /> asperiores repellat.</h3>
+                    </p>
+                </div>
+                <div class="itemblog">
+                    <div class="retangulo">&nbsp;</div>
+                    <p>
+                    <h2>Itaque earum rerum</h2>
+                    <h3>hic tenetur a sapiente delectus, ut aut<br /> reiciendis voluptatibus maiores alias<br />
+                        consequatur aut perferendis doloribus<br /> asperiores repellat.</h3>
+                    <p>
+                </div>
+                <!-- </ul> -->
             </div>
-            <div class="itemblog">
-                <div class="retangulo">&nbsp;</div>
-            <p><h2>Itaque earum rerum</h2>
-            <h3>hic tenetur a sapiente delectus, ut aut<br/> reiciendis voluptatibus maiores alias<br/> consequatur aut perferendis doloribus<br/> asperiores repellat.</h3></p>
-            </div>
-            <div class="itemblog">
-                <div class="retangulo">&nbsp;</div>
-            <p><h2>Itaque earum rerum</h2>
-            <h3>hic tenetur a sapiente delectus, ut aut<br/> reiciendis voluptatibus maiores alias<br/> consequatur aut perferendis doloribus<br/> asperiores repellat.</h3><p>
-            </div>
-        <!-- </ul> -->
+
         </div>
-             
-    </div><p><h3><button class="botaobranco"><a href="./BLOG.html">ver todos os posts</a></button></h3></p></section>
-    
+        <p>
+        <h3><button class="botaobranco"><a href="./BLOG.html">ver todos os posts</a></button></h3>
+        </p>
+    </section>
+
     <!-- RODAPÉ a colocar logo -->
-    <div class="rodape">
     <footer>
-        <figure id="logofooter"><img src="./dindin-imagens/logo-footer.png"></figure>
-        <div class="itensmenu">
-            <li><a href=CURSOS.html>CURSOS</a></li>
-            <li><a href=BLOG.html>BLOG</a></li>
-            <li><a href=CONTATO.html>CONTATO</a></li>
-        </ul>
-        </div>
-        <div class="botoes">
-        <h1><button class="botaorodape">quero ser prof</button></h1>
-        <h1><button class="botaorodape">aqui tem outro link</button></h1>
+        <a href="./index.html"><img src="./dindin-imagens/logo-footer.png" class="logo" alt="logoheader"></a>
+        <nav>
+            <ul class="listaul">
+                <li class="listafooter"><a href=./CURSOS.html>cursos</a></li>
+                <li class="listafooter"><a href=./BLOG.html>blog</a></li>
+                <li class="listafooter"><a href=./CONTATO.html>contato</a></li>
+            </ul>
+        </nav>
+        <div class="botoesfooter">
+            <button class="botaofooter">quero ser prof</button>
+            <button class="botaofooter">aqui tem outro link</button>
         </div>
     </footer>
-</div>
 </body>
+
 </html>
