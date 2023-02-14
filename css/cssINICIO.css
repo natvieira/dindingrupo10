@@ -8,10 +8,10 @@
         background-color: #2e948a;
         box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
         display: flex;
-        justify-content: space-between;
+        justify-content:space-between;
         align-items: center;
         padding: 25px;
-        padding-left: 80px;
+        padding-left: 100px;
         padding-right: 100px;
 }
 .listamenu{
@@ -74,9 +74,12 @@ padding: 0px 100px;
 }
 .botaorosa{
     background-color: #f5418e;
+    font-size: 20px;
+    font-weight: 400;
     color: #ffffff;
     border: none;
     border-radius: 50px;
+    padding: 10px 20px;
 }
 
 #CURSOS{
@@ -143,21 +146,31 @@ padding: 0px 100px;
     padding: 10px;
 }
 .depos{
-   
     width: 104px;
     height: 104px;
     padding: 10px;    
 }
-
-
 #maisconteudo{
+    display: flex;
     background-color: #f6f6f6;
     padding-top: 91px;
     padding-bottom: 119px;
-    text-align: center;
+    text-align: left;
 }
-
-.maisconteudo h1{
+.retangulo{
+    background: #c4c4c4;
+    width: 319px;
+    height: 193px;
+}
+.itensblog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px 100px 0px 100px;
+}
+#maisconteudo h1{
     text-align: left;
     padding-top: 0px;
     padding-left: 128px;
@@ -165,13 +178,12 @@ padding: 0px 100px;
     font-weight: 700;
     font-size: 37px;
 }
-
-.maisconteudo h2{
+.itensblog h2{
     color: #2e948a;
+    padding-left: 0px;
     font-weight: 700;
     font-size: 27px;
 }
-
 .rodape{
     background-color: #2e948a;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
