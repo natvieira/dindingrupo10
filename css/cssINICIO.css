@@ -4,7 +4,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.menu{
+/* .menu{
         background-color: #2e948a;
         box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
         display: flex;
@@ -30,12 +30,43 @@
 
 .listamenu a:hover{
     color:  #d1cdcd;
+} */
+.menu {
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.logo:hover {
+    opacity: 0.6;
+}
+
+.listamenu {
+    display: flex;
+    list-style: none;
+}
+
+.listamenu a {
+    color: #FDFDFD;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.listamenu a:hover{
+    color:  #d1cdcd;
 }
 
 #ilustra-banner{
-width: 100%;
-padding-top: 117px;
-padding-bottom: 66px;
+    padding-top: 117px;
+    padding-bottom: 66px;
 }
 .textobanner h1{
     color: #f5418e;
@@ -46,10 +77,10 @@ padding-bottom: 66px;
     
 }
 #bannerprincipal{
-display: inline-flex;
-justify-content: center;
-align-items: center;
-padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
 }
 
 .textobanner h2{
@@ -91,9 +122,16 @@ padding: 0px 100px;
 
 .catalogo{
     width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
+.cardcurso{
+    flex-wrap: wrap;
+    width: 400px;
+}
+
 .catalogo a{
     text-decoration: none;
     color: #f5418e;
@@ -125,13 +163,22 @@ padding: 0px 100px;
 
 #depoimentos{
     background-color: #ffffff;
-    padding: 119px 225px 155px 128px;
-    display: block;
+    padding: 5%;
+    
 }
+
+#depoimentos2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .depoimentos{
-        display: inline-block;
-        justify-content: space-between;
-        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
 }
  
 #depoimentos h1{
@@ -139,18 +186,28 @@ padding: 0px 100px;
     font-weight: 700;
     font-size: 37px;
     text-align: left;
-    padding: 0px 10px 78px 0px;
+    padding: 0px 10px 78px 10%;
 }
 .depoimentos h2{
     font-style: light;
     font-size: 18px;
     font-weight: 300;
-    padding: 10px;
+    line-height: 25px;
+    padding: 5px;
 }
+
+.depoimentos h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    padding: 5px;
+}
+
 .depos{
     width: 104px;
     height: 104px;
-    padding: 10px;    
+    padding: 20px; 
 }
 #maisconteudo{
     display: flex;
@@ -186,7 +243,7 @@ padding: 0px 100px;
     font-weight: 700;
     font-size: 27px;
 }
-.rodape{
+/* .rodape{
     background-color: #2e948a;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -216,5 +273,133 @@ padding: 0px 100px;
     margin: 8px;
     color:#ffffff;
     cursor: pointer;
+} */
+
+#contatoimagem {
+    width: 444px;
+    height: 444px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
+footer {
+    background: #419488;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.listafooter {
+    list-style: none;
+    padding: 8px;
+}
+
+
+.listafooter a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.listafooter a:hover{
+    color:  #d1cdcd;
+}
+
+.botoesfooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.botaofooter{
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 8px;
+    color: #FFFFFF;
+    background-color: #419488;
+    cursor: pointer;
+}
+
+.botaofooter:hover{
+    background-color: #30655d;
+}
+
+
+@media only screen and (max-width:834px) {
+    .logo {
+        width: 150px;
+    }
+
+    .listamenu a {
+        font-weight: 500;
+        font-size: 18px;
+     
+    }
+    /* aqui vai o seu */
+
+    .botaofooter{
+        font-size: 18px;
+        width: 200px;
+    
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .logo {
+        width: 90px;
+    }
+
+    .menu {
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .listamenu a {
+        font-weight: 500;
+        font-size: 13px;
+        padding-left: 10px;
+        line-height: 0px;
+    }
+
+/* aqui vai o seu */
+    
+    footer {
+        padding: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .listafooter {
+        padding: 0px;
+        
+    }
+
+    .listaul {
+        padding-left: 0px;
+    }
+
+    .listafooter a {
+        font-size: 11px;
+        line-height: 23px;
+    }
+
+    .botaofooter{
+        font-size: 12px;
+        line-height: 0px;
+        width: 120px;
+        height: 25px;
+        margin: 4px;    
+    }
+
+}
