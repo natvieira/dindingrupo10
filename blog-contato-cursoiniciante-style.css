@@ -124,6 +124,102 @@
     color: #b0345d;
 }
 
+/* curso iniciante */
+
+#cabecalhocursoiniciante {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+}
+
+.introducaocursoiniciante h1 {
+    width: 470px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+    padding-bottom: 5%;
+
+}
+
+.introducaocursoiniciante h2 {
+    width: 461px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 5%;
+    color: #000000;
+}
+
+#ilustrainiciantecurso{
+    width: 380px;
+    height: 381px;
+    padding-bottom: 50px;
+}
+
+.corpocursoiniciante {
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.aulainiciante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 130px;
+    padding-top: 130px;
+}
+
+.aulainiciante h3{
+    width: 501px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    padding-left: 13%;
+    
+}
+
+.aulainiciante p {
+    width: 501px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    padding-left: 13%;
+    padding-top: 30px;
+}
+
+.imagemvideo {
+    width: 462px;
+    height: 261px;
+}
+
+.imagemvideo:hover{
+    opacity: 0.3;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width:90%;
+    height: 5px;
+    left: 98px;
+    top: 1424px;
+    background: #C4C4C4;
+}
+
+/* fim curso iniciante */
+
 #postdetalhado {
     display: flex;
     flex-direction: column;
@@ -378,7 +474,7 @@ footer {
     background-color: #30655d;
 }
 
-@media only screen and (max-width:834px) {
+@media only screen and (max-width:1090px) {
     .logo {
         width: 150px;
     }
@@ -396,7 +492,7 @@ footer {
         width: 400px;
         font-size: 40px;
         padding-bottom: 2%;
-    
+        line-height: 45px;    
     }
     
     .introducaoblog h2 {
@@ -404,6 +500,62 @@ footer {
         font-size: 15px;
         padding-top: 2%;
     }
+
+    #cabecalhocursoiniciante {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 3%;
+    }
+    /* curso iniciante */
+
+    .introducaocursoiniciante {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .introducaocursoiniciante h1 {
+        width: 300px;
+        line-height: 45px;
+        font-size: 40px;
+        padding-bottom: 2%;
+    }
+    .introducaocursoiniciante h2 {
+        width: 341px;
+        font-size: 15px;
+        padding-top: 2%;
+    }
+    #ilustrainiciantecurso{
+        width: 35%;
+        height: 35%;
+        padding: 0px;
+    }
+    .aulainiciante {
+        flex-wrap: wrap;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    .aulainiciante h3{
+        width: 150px;
+        font-size: 28px;
+        line-height: 30px; 
+        padding-left: 10%;
+    }
+    
+    .aulainiciante p {
+        width: 330px;
+        font-size: 16px;
+        padding-top: 15px;
+        line-height: 20px;
+        padding-left: 10%;
+    }
+    
+    .imagemvideo {
+        width: 300px;
+        height: 184px;
+    }
+    
+
+    /* fim curso iniciante */
 
     #postdetalhado h1 {
         font-size: 40px;
@@ -427,6 +579,17 @@ footer {
         padding-left: 30px;
     }
     
+    .formcontato h1 {
+        padding-left: 50px;
+    }
+    .colunacontato form {
+        padding-left: 50px;
+    }
+
+    #camponome, #campoemail, #campomensagem{
+        width: 380px;
+    }
+
     .botaofooter{
         font-size: 18px;
         width: 200px;
@@ -434,7 +597,7 @@ footer {
     }
 }
 
-@media only screen and (max-width:568px) {
+@media only screen and (max-width:700px) {
     .logo {
         width: 90px;
     }
@@ -480,6 +643,7 @@ footer {
 
     .coluna {
         width: 300px;
+        padding: 0px;
     }
     
     .corpoblog h3 {
@@ -502,6 +666,56 @@ footer {
         width: 300px;
         padding-bottom: 15%;
     }
+
+    /* curso iniciante */
+    .introducaocursoiniciante h1 {
+        width: 150px;
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .introducaocursoiniciante h2 {
+        width: 171px;
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 0px;
+        padding-bottom: 10%;
+    }
+    #ilustrainiciantecurso{
+        width: 40%;
+        height: 40%;
+        padding-left: 5px;
+    }
+    
+    .aulainiciante {
+        flex-wrap: wrap;
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+    
+    .aulainiciante h3{
+        width: 150px;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    
+    .aulainiciante p {
+        width: 70%;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 10px;
+
+    }
+    
+    .imagemvideo {
+        width: 262px;
+        height: 161px;
+    }
+    
+
+    /* fim curso iniciante */
+
 
     #postdetalhado h1 {
         font-size: 20px;
@@ -568,27 +782,34 @@ footer {
         font-size: 13px;
     }
 
+    .colunacontato {
+        width: 330px;
+        display: flex;
+        justify-content: center;
+    }
     .formcontato h1 {
         font-weight: 500;
         font-size: 30px;
         padding-top: 50px;
-    }
-    
-    .colunacontato {
-        width: 300px;
-
+        width: 280px;
+        margin: 0px;
+        padding-left: 0px;
     }
     
     #camponome, #campoemail, #campomensagem{
         width: 280px;
     }
-        
+    
+    .colunacontato form {
+        padding-left: 0px;
+    }
+
     #contatoimagem {
         width: 222px;
         height: 222px;
         padding-top: 40px;
         padding-bottom: 70px;
-        padding-left: 40px;
+        padding-left: 0px;
     }
     
     footer {
