@@ -242,12 +242,13 @@
     padding-top: 0px;
     padding-left: 128px;
     justify-content: stretch;
+    flex-wrap: wrap;
 }
 
 .itemblog{
     display: flex;
     flex-direction: column;
-    padding-top 73px;
+    padding-top: 73px;
     padding-bottom: 101px;
 }
 
