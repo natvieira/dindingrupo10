@@ -104,12 +104,6 @@
     transition: all 0.2s;
 }
 
-#conhecacursospost{
-    background: #F7F7F7;
-    text-align: center;
-    padding-top: 60px;
-}
-
 .cardspost{
     display: flex;
     flex-wrap: wrap;
@@ -117,36 +111,45 @@
     padding-top: 45px;
 }
 
-.cardcursospost{
-    width: 338px;
+#conhecacursospost{
+    background: #F7F7F7;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 129x;
+}
+
+.cardcursospost{    
+    width: 370px;
     flex-wrap: wrap;
     padding-bottom: 120px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
-    
+    align-content:last baseline;
 }
 
 .cardcursospost img{
-    height: max-content;
-    width: max-content;
-    align-items: stretch; 
-    padding-bottom: 45px;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    justify-content: space-evenly;
+    padding-bottom: 43px;
 }
 
 #indepfin{
-    height: 60% !important; 
-    padding-bottom: 37px !important;
+    height: 64% !important;
+    padding-bottom: 35px !important; 
 }
 
 .cardcursospost h3{
+    display: flex;
     font-weight: 700;
     font-size: 29px;
     font-style: bold;
     line-height: 29px;
     color: #FF4081;
-    
+    justify-content: space-evenly;
+    text-align: center;
     }
 
 .cardcursospost p{
@@ -157,25 +160,27 @@
     text-align: center;
     color: #000000;
 }
-
+/* show */
 #depoimentos {
+    width: 1257px;
+    height: 730px;
     background-color: #ffffff;
-    padding: 5%;
-
+    padding-left: 128px;
 }
 
 #depoimentos2 {
+    width: 1129px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.depoimentos {
+.depoimentos{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     width: 600px;
+    height: 180px;
 }
 
 #depoimentos h1 {
@@ -183,7 +188,7 @@
     font-weight: 700;
     font-size: 37px;
     text-align: left;
-    padding: 0px 10px 78px 10%;
+    padding: 119px 10px 78px 0px;
 }
 
 .depoimentos h2 {
@@ -201,89 +206,61 @@
     color: #000000;
     padding: 5px;
 }
-
 .depos {
     width: 104px;
     height: 104px;
-    padding: 20px;
+    padding-right: 100px;
 }
 
 #maisconteudo {
-    display: flex;
+    box-sizing: border-box;
+    width: auto;
+    height: 730px;
     background-color: #f6f6f6;
-    padding-top: 91px;
-    padding-bottom: 119px;
-    text-align: left;
 }
 
-.retangulo {
+#maisconteudo h1{
+    text-align: left;
+    padding-top: 91px;
+    padding-left: 128px;
+    padding-bottom: 71px;
+    color: #2e948a;
+    font-weight: 700;
+    font-size: 37px;
+}
+.retangulo{
     background: #c4c4c4;
     width: 319px;
     height: 193px;
 }
 
-.itensblog {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-
-}
-
-#maisconteudo h1 {
-    text-align: left;
+.griditens{
+    display: inline-grid;
+    grid-template-rows: repeat(1, 420px);
+    grid-template-columns: repeat(3, 330px);
+    gap: 109px;
     padding-top: 0px;
     padding-left: 128px;
-    color: #2e948a;
-    font-weight: 700;
-    font-size: 37px;
+    justify-content: stretch;
 }
 
-.itensblog h2 {
+.itemblog{
+    display: flex;
+    flex-direction: column;
+    padding-top 73px;
+    padding-bottom: 101px;
+}
+
+.itemblog h2{
     color: #2e948a;
     padding-left: 0px;
     font-weight: 700;
     font-size: 27px;
 }
 
-/* .rodape{
-    background-color: #2e948a;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+#botaoposts{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px;
-    padding-left: 80px;
-    padding-right: 100px;
-}
-.itensmenu{
-    list-style: none;
-}
-.rodape a{
-    text-decoration: none;
-}
-.botaorodape{
-    box-sizing: border-box;
-    border: 2px solid #ffffff;
-    background-color: #2e948a;
-    border-radius: 62px;
-    text-align: center;
-    font-style: regular;
-    font-weight: 400;
-    font-size: 20px;
-    width: 300px;
-    height: 50px;
-    margin: 8px;
-    color:#ffffff;
-    cursor: pointer;
-} */
-
-#contatoimagem {
-    width: 444px;
-    height: 444px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    justify-content: center;
 }
 
 footer {
