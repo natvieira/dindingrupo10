@@ -41,12 +41,15 @@
 
 #bannerprincipal{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
 }
 
 #ilustra-banner{
+    width: 50%;
+    height: 50%;
     padding-top: 145px;
     padding-bottom: 66px;
 }
@@ -136,11 +139,6 @@
     padding-bottom: 43px;
 }
 
-/* #indepfin{
-    height: 64% !important;
-    padding-bottom: 35px !important; 
-} */
-
 .cardcursospost h3{
     display: flex;
     font-weight: 700;
@@ -162,16 +160,13 @@
     padding-bottom: 30px;
     color: #000000;
 }
-/* show */
+
 #depoimentos {
-    /* width: 1257px;
-    height: 730px; */
     background-color: #ffffff;
     padding-left: 128px;
 }
 
 #depoimentos2 {
-    /* width: 1129px; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -220,7 +215,7 @@
 #maisconteudo {
     box-sizing: border-box;
     width: auto;
-    background-color: #f6f6f6;
+    background-color: #F7F7F7;
 }
 
 #maisconteudo h1{
@@ -238,6 +233,9 @@
     height: 193px;
 }
 
+#maisconteudo button{
+    background-color: #F7F7F7;
+}
 .griditens{
     display: flex;
     justify-content: space-evenly;
@@ -336,26 +334,6 @@ footer {
 }
 
 
-@media only screen and (max-width:834px) {
-    .logo {
-        width: 150px;
-    }
-
-    .listamenu a {
-        font-weight: 500;
-        font-size: 18px;
-
-    }
-
-    /* aqui vai o seu */
-
-    .botaofooter {
-        font-size: 18px;
-        width: 200px;
-        
-    }
-}
-
 @media only screen and (max-width:568px) {
     .logo {
         width: 90px;
@@ -374,8 +352,108 @@ footer {
         line-height: 0px;
     }
 
-    /* aqui vai o seu */
+    .textobanner h1{
+        text-align: left;
+        line-height: 35px;
+        font-size: 30px;
+        padding: 12% 10% 0% 25%;
+    }
 
+    .textobanner h2{
+        text-align: center;
+        font-size: 130%;
+        padding: 5% 20% 0% 20%;
+    }
+
+    #bannerprincipal button{
+     margin: 5% 20% 10% 25%;
+    }
+
+    #ilustra-banner{
+        display: none;
+    }
+
+    .cardcursospost p{
+        margin: 0% 10%;
+        font-size: 96%;
+        
+    }
+    #conhecacursospost{
+        padding-top: 0px;
+    }
+    }
+    .cardcursospost{
+        padding-bottom: 70px;
+    }
+
+    #depoimentos{
+        padding-left: 0px;
+    }
+
+    #depoimentos2{
+        padding: 10px 0px;
+    }
+
+    #depoimentos h1{
+        font-size: 140%;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .depoimentos{
+        padding-right: 260px;
+        display: flex;
+        justify-content: end;
+        margin-left: 280px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+    .depoimentos h2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .griditens{
+        display: flex;
+        flex-wrap: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    
+    .itemblog{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        
+    }
+
+    #maisconteudo h1{
+        font-size: 135%;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+
+    .retangulo{
+        width: 280px;
+        height: 140px;
+    }
+
+    #maisconteudo h3{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 100%;
+        padding: 0%;
+    }
+   
+    #botaoposts{
+        padding: 5% 5% 10%;
+        
+    }
+    
     footer {
         padding: 5px;
         padding-top: 15px;
@@ -404,4 +482,24 @@ footer {
         margin: 4px;
     }
 
+
+
+@media only screen and (max-width:834px) {
+    .logo {
+        width: 150px;
+    }
+
+    .listamenu a {
+        font-weight: 500;
+        font-size: 18px;
+
+    }
+
+    /* aqui vai o seu */
+
+    .botaofooter {
+        font-size: 18px;
+        width: 200px;
+        
+    }
 }
