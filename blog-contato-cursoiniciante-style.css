@@ -408,7 +408,12 @@ hr {
     border-radius: 50px;
     border: none;
     color: white;
-    cursor: pointer;
+    cursor: pointer;  
+}
+
+#botaocontato a{
+    text-decoration: none;
+    color:#FFFFFF;
 }
 
 #botaocontato:hover {
@@ -468,6 +473,11 @@ footer {
     color: #FFFFFF;
     background-color: #419488;
     cursor: pointer;
+}
+
+.botaofooter a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .botaofooter:hover{
@@ -804,6 +814,12 @@ footer {
         padding-left: 0px;
     }
 
+    #formcontato{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
     #contatoimagem {
         width: 222px;
         height: 222px;
@@ -837,7 +853,14 @@ footer {
         line-height: 0px;
         width: 120px;
         height: 25px;
-        margin: 4px;    
+        margin: 4px;        
     }
+    
+    .botaofooter a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    
 
 }
