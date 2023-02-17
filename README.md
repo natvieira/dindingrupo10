@@ -3,13 +3,17 @@
 
 ### O desafio
 
-![](design/desktop-design.jpg)
+#### A empresa fictícia DINDIN, quer lançar uma plataforma de conteúdo sobre Educação Financeira e você foi contratado/a como pessoa desenvolvedora!
+
+#### Já temos o layout pronto de todas as páginas, mas precisamos que você desenvolva o site com HTML, CSS.
+
+#### link layout: https://www.figma.com/file/fBQ1nm00ynNQPK9GBwyMBc/dindin?node-id=0%3A1
 
 
 ### Contruído usando:
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5
+- CSS
 - Flexbox
 - Hover
 - Media queries

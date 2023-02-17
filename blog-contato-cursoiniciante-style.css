@@ -627,23 +627,20 @@ footer {
 
 
     #ilustrablog{
-        width: 40%;
-        padding-right: 15px;
+        display: none;
     }
 
     .introducaoblog h1 {
-        width: 180px;
-        font-size: 20px;
-        line-height: 25px;
+        width: 280px;
+        font-size: 25px;
+        line-height: 30px;
         padding-top: 20px;
-        padding-left: 30px;
     }
     
     .introducaoblog h2 {
-        width: 171px;
-        font-size: 12px;
+        width: 250px;
+        font-size: 16px;
         line-height: 16px;
-        padding-left: 30px;
         padding-bottom: 10%;
     }
 
@@ -657,8 +654,8 @@ footer {
     }
     
     .corpoblog h3 {
-        font-size: 20px;
-        line-height: 34px;
+        font-size: 19px;
+        line-height: 24px;
         padding-top: 2%;
         padding-bottom: 2%;
     }
@@ -705,16 +702,23 @@ footer {
     }
     
     .aulainiciante h3{
-        width: 150px;
+        width:270px;
         font-size: 20px;
         padding-top: 15px;
+        text-align: center;
+        padding-left: 0px;
+        
+        
     }
     
     .aulainiciante p {
-        width: 70%;
+        width: 270px;
         font-size: 14px;
         line-height: 20px;
         padding-top: 10px;
+        padding-left: 0px;
+        text-align: center;
+        
 
     }
     
@@ -797,6 +801,8 @@ footer {
         display: flex;
         justify-content: center;
     }
+    
+
     .formcontato h1 {
         font-weight: 500;
         font-size: 30px;
@@ -813,7 +819,10 @@ footer {
     .colunacontato form {
         padding-left: 0px;
     }
-
+    .formcontato h1 {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
     #formcontato{
         font-size: 30px;
         font-weight: bold;
@@ -821,13 +830,13 @@ footer {
         
     }
     #contatoimagem {
-        width: 222px;
-        height: 222px;
-        padding-top: 40px;
-        padding-bottom: 70px;
-        padding-left: 0px;
+        display: none;
     }
     
+    #botaocontato{
+        margin-bottom: 30px;
+    }
+
     footer {
         padding: 5px;
         padding-top: 15px;
