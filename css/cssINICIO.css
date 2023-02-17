@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
 }
 
 .menu{
@@ -41,17 +41,16 @@
 
 #bannerprincipal{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
 }
 
 #ilustra-banner{
-    width: 50%;
-    height: 50%;
-    padding-top: 145px;
-    padding-bottom: 66px;
+    width: 501px;
+    height: 511px;
+    margin-top: 145px;
+    margin-bottom: 66px;
 }
 
 .textobanner h1{
@@ -89,6 +88,25 @@
     color: #f5418e;
 }
 
+.botaobranco2 {
+    background-color: #ffffff;
+    font-size: 27px;
+    font-weight: 400;
+    color: #f5418e;
+    border: #f5418e solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.botaobranco2:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.botaobranco2 a{
+    text-decoration: none;
+    color: #f5418e;
+}
+
 .botaorosa{
     width: 233px;
     height: 51px;
@@ -122,7 +140,7 @@
 }
 
 .cardcursospost{    
-    width: 370px;
+    width: 400px;
     flex-wrap: wrap;
     padding-bottom: 120px;
     display: flex;
@@ -133,7 +151,7 @@
 
 .cardcursospost img{
     display: flex;
-    height: 279.0556640625px;
+    height: 300px;
     /* width: 270px; */
     justify-content: space-evenly;
     padding-bottom: 43px;
@@ -163,7 +181,7 @@
 
 #depoimentos {
     background-color: #ffffff;
-    padding-left: 128px;
+    padding-left: 8%;
 }
 
 #depoimentos2 {
@@ -179,7 +197,7 @@
     align-items: center;
     padding-bottom: 86px;
     /* flex-wrap: wrap; */
-    width: 600px;
+    width: 500px;
     /* height: 180px; */
 }
 
@@ -197,6 +215,7 @@
     font-weight: 300;
     line-height: 25px;
     padding: 5px;
+    width: 380px;
 }
 
 .depoimentos h3 {
@@ -240,7 +259,16 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+.griditens h3 {
+    width: 319px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .itemblog{
     display: flex;
     flex-direction: column;
@@ -255,6 +283,7 @@
     padding-left: 0px;
     font-weight: 700;
     font-size: 27px;
+    width: 319px;
 }
 
 #botaoposts{
@@ -333,8 +362,88 @@ footer {
     justify-content: center;
 }
 
+@media only screen and (max-width:1090px) {
+    .logo {
+        width: 150px;
+    }
 
-@media only screen and (max-width:568px) {
+    .listamenu a {
+        font-weight: 500;
+        font-size: 18px;
+
+    }
+
+    #bannerprincipal{
+        padding: 0px 0px;
+        justify-content: space-around;
+    }
+    
+    #ilustra-banner{
+        width: 40%;
+        height: 40%;
+        margin-top: 10%;
+        margin-bottom: 7%;
+    }
+    
+    .textobanner h1{
+        color: #f5418e;
+        width: 312px;
+        font-size: 45px;
+    }
+    
+    .textobanner h2{
+        width: 312px;
+    }
+    .cardcursospost h3 {
+        width: 300px;
+    }
+
+    .botaobranco{
+        font-size: 25px;
+    }
+    
+    #depoimentos {
+        padding-left: 0px;
+    }
+    
+    .depoimentos{
+        padding-bottom: 86px;
+        width: 600px;
+    }
+    
+    #depoimentos h1 {
+        color: #2e948a;
+        padding-left: 10%;
+    }
+    
+    
+    
+    #maisconteudo h1{
+        text-align: left;
+        padding-top: 70px;
+        padding-bottom: 55px;
+        padding-left: 40px;
+        color: #2e948a;
+        font-weight: 700;
+        font-size: 37px;
+    }
+    
+    .botaobranco2 {
+        width: 200px;
+        font-size: 18px;
+        margin: 0px 0px 30px 0px !important; 
+        padding: 8px;
+    }
+
+    .botaofooter {
+        font-size: 18px;
+        width: 200px;
+        
+    }
+}
+
+
+@media only screen and (max-width:700px) {
     .logo {
         width: 90px;
     }
@@ -353,35 +462,54 @@ footer {
     }
 
     .textobanner h1{
+        width: 320px;
         text-align: left;
         line-height: 35px;
         font-size: 30px;
-        padding: 12% 10% 0% 25%;
+        padding: 0px;
+        padding-top: 40px;
+        padding-left: 40px;
     }
 
     .textobanner h2{
-        text-align: center;
-        font-size: 130%;
-        padding: 5% 20% 0% 20%;
+        width: 320px;
+        font-size: 20px;
+        padding: 0px;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+    .textobanner h3{
+        width: 320px;
+        text-align: start;
+    }
+
+    .botaobranco{
+        width: 200px;
+        font-size: 18px;
+        margin: 20px 0px 40px 40px !important; 
+        padding: 8px;
     }
 
     #bannerprincipal button{
-     margin: 5% 20% 10% 25%;
+     margin: 5% 25% 10% 25%;
     }
 
     #ilustra-banner{
         display: none;
     }
-
     .cardcursospost p{
         margin: 0% 10%;
         font-size: 96%;
         
     }
+    .cardcursospost h3{
+        width: 300px;
+        
+    }
     #conhecacursospost{
         padding-top: 0px;
     }
-    }
+    
     .cardcursospost{
         padding-bottom: 70px;
     }
@@ -399,35 +527,58 @@ footer {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
+        padding-left: 0px;
     }
 
     .depoimentos{
-        padding-right: 260px;
-        display: flex;
-        justify-content: end;
-        margin-left: 280px;
-        text-align: left;
+        padding-right: 0px;
+        margin-left: 20px;
         padding-bottom: 40px;
+        width: 320px;
+        justify-content: center;
     }
 
     .depoimentos h2{
-        display: flex;
-        flex-wrap: wrap;
+       width: 200px;
+       font-size: 16px;
     }
+    .depoimentos h3{
+        font-size: 16px;
+     }
+
+    .depos{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .depos img{
+        width: 84px;
+        height: 84px;
+    }
+
     .griditens{
-        display: flex;
-        flex-wrap: flex;
-        flex-direction: column;
         padding-bottom: 0px;
-    }
-    
-    .itemblog{
         width: 100%;
-        height: 100%;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
     }
+ 
+    .itemblog{
+        width: 320px;
+        padding-bottom: 20px;
+        align-items: center;
+       
+    }
+    .itemblog h2{
+        width: 100% !important;
+        text-align: center;
+       
+    }
+    .itemblog h3{
+        width: 100% !important;
+        text-align: center;
+    }
+ 
 
     #maisconteudo h1{
         font-size: 135%;
@@ -435,6 +586,7 @@ footer {
         padding-top: 30px;
         padding-bottom: 10px;
         padding-left: 0px;
+        width: 100%;
     }
 
     .retangulo{
@@ -443,15 +595,19 @@ footer {
     }
 
     #maisconteudo h3{
-        display: flex;
-        flex-wrap: wrap;
         font-size: 100%;
         padding: 0%;
+        width: 100%;
     }
    
-    #botaoposts{
-        padding: 5% 5% 10%;
-        
+    .botaobranco2 {
+        width: 200px;
+        font-size: 18px;
+        margin: 0px 0px 30px 0px !important; 
+        padding: 8px;
+    }
+    #botaoposts {
+       padding: 0px 0px 0px 0px;
     }
     
     footer {
@@ -482,24 +638,4 @@ footer {
         margin: 4px;
     }
 
-
-
-@media only screen and (max-width:834px) {
-    .logo {
-        width: 150px;
-    }
-
-    .listamenu a {
-        font-weight: 500;
-        font-size: 18px;
-
-    }
-
-    /* aqui vai o seu */
-
-    .botaofooter {
-        font-size: 18px;
-        width: 200px;
-        
-    }
 }
